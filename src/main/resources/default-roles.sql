@@ -1,0 +1,2 @@
+INSERT INTO roles(id,name) VALUES(SYS_GUID(),'ROLE_USER');
+INSERT INTO roles(id,name) VALUES(SYS_GUID(),'ROLE_ADMIN');
