@@ -1,8 +1,8 @@
 package com.madfat.polls.controller;
 
-import com.madfat.polls.Exception.AppException;
-import com.madfat.polls.Repository.RoleRepository;
-import com.madfat.polls.Repository.UserRepository;
+import com.madfat.polls.exception.AppException;
+import com.madfat.polls.repository.RoleRepository;
+import com.madfat.polls.repository.UserRepository;
 import com.madfat.polls.model.Role;
 import com.madfat.polls.model.RoleName;
 import com.madfat.polls.model.User;
@@ -11,7 +11,6 @@ import com.madfat.polls.payload.JwtAuthenticationResponse;
 import com.madfat.polls.payload.LoginRequest;
 import com.madfat.polls.payload.SignUpRequest;
 import com.madfat.polls.security.JwtTokenProvider;
-import com.madfat.polls.security.UserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -25,7 +24,6 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import javax.validation.Valid;
 import java.net.URI;
-import java.util.Collection;
 import java.util.Collections;
 
 @RestController

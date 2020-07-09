@@ -1,4 +1,4 @@
-package com.madfat.polls.Repository;
+package com.madfat.polls.repository;
 
 import com.madfat.polls.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;

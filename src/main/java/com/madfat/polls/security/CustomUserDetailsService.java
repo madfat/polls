@@ -1,6 +1,6 @@
 package com.madfat.polls.security;
 
-import com.madfat.polls.Repository.UserRepository;
+import com.madfat.polls.repository.UserRepository;
 import com.madfat.polls.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
